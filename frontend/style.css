@@ -3,3 +3,24 @@ form {
   flex-direction: column;
   align-items: center;
 }
+
+.textFields {
+  width: 30%;
+  height: 36px;
+  margin: 0.25rem;
+}
+
+#enviar {
+  padding: 0.7%;
+  width: 20%;
+  margin: 0.25rem;
+}
+
+.startup-card {
+  display: flex;
+  flex-direction: column;
+  border: solid 1px black;
+  border-radius: 10px;
+  margin: 0.5rem;
+  padding-left: 5%;
+}

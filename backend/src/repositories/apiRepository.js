@@ -18,7 +18,7 @@ export class ApiRepository {
       "INSERT INTO startups(nome_fantasia, setor, cnpj) VALUES($1, $2, $3) RETURNING *";
     const values = [startup.nomeFantasia, startup.setor, startup.cnpj];
 
-    res = await db.query(query, values);
+    const res = await db.query(query, values);
     return res.rows[0];
 
     /*try {
